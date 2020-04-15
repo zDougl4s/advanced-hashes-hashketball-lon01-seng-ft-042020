@@ -145,7 +145,7 @@ def shoe_size (player)
     stats[:players].each do |stats_list|
       if stats_list[:player_name] == player
         return stats_list[:shoe]
-      end 
+      end
       end
       end
 end
@@ -154,6 +154,6 @@ def tean_colors (team)
   data.each do |home_away,stats|
     if home_away[:team_name] == team
     return home_away[:colors]
-  end 
-end 
+  end
+end
 end 
