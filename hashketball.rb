@@ -178,3 +178,7 @@ end
 end
 player_numbers
 end
+
+def player_stats (teamplayer)
+  data=game_hash
+end 
