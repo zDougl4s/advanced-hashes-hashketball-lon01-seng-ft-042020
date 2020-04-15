@@ -157,4 +157,4 @@ def tean_colors (team)
     binding.pry
   end
 end
-end 
+end
