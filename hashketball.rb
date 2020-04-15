@@ -149,3 +149,11 @@ def shoe_size (player)
       end
       end
 end
+def tean_colors (team)
+  data = game_hash
+  data.each do |home_away,stats|
+    if home_away[:team_name] == team
+    return home_away[:colors]
+  end 
+end 
+end 
