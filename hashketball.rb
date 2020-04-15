@@ -135,10 +135,6 @@ def num_points_scored (player)
      if stats_list[:players] == player
         return player[:points]
      end
-
-
-     binding.pry
-
    end
   end
 end
