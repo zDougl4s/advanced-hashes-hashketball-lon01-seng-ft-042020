@@ -192,5 +192,23 @@ end
 end
 
 def big_shoe_rebounds
+data = game_hash
+name = ""
+max_size = 0
+data.each do |home_away, stats|
+  stats[:players].each do |stats2|
+    if stats2[:shoe] > max_size
+      max_size = stats2[:shoe]
+      name = stats2[:player_name]
+    end
+  end
+end
 
-end 
+data.each do |home_away, stats|
+  stats[:players].each do |stats2|
+    if stats2[:player_name] == name
+      return stats2[:rebounds]
+    end
+  end
+end
+end
