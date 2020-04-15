@@ -166,6 +166,6 @@ def team_names
   team_names
 end
 
-def player_numbers(numbers)
+def player_numbers(numbers,team)
 binding.pry
 end
