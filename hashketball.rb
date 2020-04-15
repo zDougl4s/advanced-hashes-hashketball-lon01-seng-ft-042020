@@ -180,5 +180,11 @@ player_numbers
 end
 
 def player_stats (teamplayer)
-  data=game_hash
-end 
+  data = game_hash
+  player_stats = {}
+  data.each do |home_away,stats|
+    stats[:players].each do |stats2|
+      if stats2[:player_name] == teamplayer
+        return stats2
+  end
+end
