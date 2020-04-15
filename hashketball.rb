@@ -163,6 +163,6 @@ def team_names (home_away)
   data.each do |home_awayy,stats|
     if home_awayy == home_awayy
       return stats[:team_name]
-
+end 
   end
 end
