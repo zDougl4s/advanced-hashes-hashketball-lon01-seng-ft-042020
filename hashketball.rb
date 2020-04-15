@@ -155,7 +155,7 @@ def tean_colors (team)
     if stats[:team_name] == team
         binding.pry
     return home_away[:colors]
-  
+
   end
 end
 end
