@@ -166,6 +166,15 @@ def team_names
   team_names
 end
 
-def player_numbers(numbers)
-binding.pry
+def player_numbers(team_names)
+  data = game_hash
+player_numbers = []
+data.each do |home_away, stats|
+  stats[:players].each do |value|
+  if stats[:team_name] == team_name
+    player_numbers.push(value[:number])
+  end
+end
+end
+player_numbers
 end
