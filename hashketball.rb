@@ -129,5 +129,6 @@ end
 # Write code here
 def num_points_scored (player)
   data = game_hash
-
+   data.each do |points,result |
+  end
 end
