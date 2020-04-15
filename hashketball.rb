@@ -132,7 +132,9 @@ def num_points_scored (player)
   data = game_hash
    data.each do |home_away,stats|
      stats[:players].each do |stats_list|
-
+     if stats_list[:players] == player
+        return player[:points]
+     end
 
 
      binding.pry
