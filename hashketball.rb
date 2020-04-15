@@ -134,7 +134,7 @@ def num_points_scored (player)
      stats.each do |stats_list,result_stats|
        stats_list.each do | compare , value|
      binding.pry
-   end
+    end
    end
   end
 end
