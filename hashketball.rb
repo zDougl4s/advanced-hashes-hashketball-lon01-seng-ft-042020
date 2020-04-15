@@ -153,7 +153,7 @@ def team_colors (team)
   data = game_hash
   data.each do |home_away,stats|
     if stats[:team_name] == team
-      stats[:colors].join(',')
+      stats[:colors]
      binding.pry
   end
 end
