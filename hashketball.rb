@@ -133,5 +133,6 @@ def num_points_scored (player)
    data.each do |home_away,stats|
      stats.each do |points,numbers|
      binding.pry
+   end
   end
 end
