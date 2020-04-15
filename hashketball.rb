@@ -165,3 +165,7 @@ def team_names
   team_names.push(data[:away][:team_name])
   team_names
 end
+
+def player_numbers(numbers)
+binding.pry
+end 
