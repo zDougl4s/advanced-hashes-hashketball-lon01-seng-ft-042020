@@ -134,7 +134,7 @@ def num_points_scored (player)
      stats.each do |stats_list,result_stats|
       if stats_list == [:players]
         player= [:players]
-        
+
      binding.pry
 
    end
